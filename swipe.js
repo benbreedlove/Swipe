@@ -62,7 +62,6 @@ Swipe.prototype = {
 
     // determine width of each slide
     if ( !this.width ) {
-        console.log('determined width');
         this.width = ("getBoundingClientRect" in this.container) ? this.container.getBoundingClientRect().width : this.container.offsetWidth;
     }
 
